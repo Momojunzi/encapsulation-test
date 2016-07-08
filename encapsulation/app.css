@@ -1,0 +1,47 @@
+
+body{
+    box-sizing: border-box;
+}
+
+#header-img-link {
+    width: 15%;
+    padding:1%;
+
+}
+
+#header-img {
+    width: 100%;
+    margin-left: 32%;
+}
+
+header {
+    width: 95vw;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    border: solid black 1px;
+}
+
+nav {
+    width: 70%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+.header-nav-link {
+    width: 25%;
+    margin: auto;
+    padding-top: 3%;
+    padding-left:7%;
+    text-decoration: none;
+    color:green;
+    text-align: center;
+    border-left: solid black 1px;
+}
+
+nav:last-child {
+    border-right: solid black 1px;
+}
